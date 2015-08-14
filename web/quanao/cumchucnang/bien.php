@@ -1,0 +1,13 @@
+<?php 
+	chong_pha_hoai();
+?>
+<?php 
+	//$thu_muc_skin="skin/hong/";
+	//$thu_muc_skin="skin/xanh/";
+	//$thu_muc_skin="skin/cam/";
+	//$thu_muc_skin="skin/den/";
+	//$thu_muc_skin="skin/xanh_la/";
+	//$thu_muc_skin="skin/xanh_dam/";
+	//$thu_muc_skin="skin/do/";
+	$thu_muc_skin=thong_so(13);
+?>

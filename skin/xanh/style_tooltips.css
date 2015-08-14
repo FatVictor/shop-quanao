@@ -1,0 +1,57 @@
+﻿.tooltip_tyle{
+position:absolute;
+top: -500px;
+left: 0;
+padding: 5px;
+visibility: hidden;
+border:1px solid black;
+font:normal 11px Verdana;
+text-align:left;
+line-height: 18px;
+z-index: 100;
+background-color: white;
+/*width: 300px;*/
+/*Remove below line to remove shadow. Below line should always appear last within this CSS*/
+filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135,Strength=5);
+}
+
+#arrowhead{
+z-index: 99;
+position:absolute;
+top: -500px;
+left: 0;
+visibility: hidden;
+
+}
+
+/*** Tooltip ***/
+#tooltip{
+	background:#FFFFFF;
+	border:1px #CCCCCC solid;
+	border-radius:0.5em;
+	-moz-border-radius:0.5em;
+	padding:8px 9px 8px 9px;
+	position:absolute;
+	z-index:9999;
+	/*background:red*/
+	
+}
+.hidden{display:none}
+.tooltip_product .picture{
+	text-align:center;
+	margin-bottom:10px;
+	
+}
+.tooltip_product .teaser{
+	font-size:11px;
+	
+}
+.tooltip_product .name{
+	color:#e97d13;
+	font-size:13px;
+	font-weight:bold;
+	margin-bottom:10px;
+	
+}
+/*-- End Tooltip --*/
+

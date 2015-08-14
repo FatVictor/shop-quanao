@@ -1,0 +1,9 @@
+<?php 
+	chong_pha_hoai();
+?>
+<?php 
+	include_file_2("web/quanao/cumchucnang/trang_chu/slide.php");
+	//include_file_2("web/quanao/cumchucnang/trang_chu/hop_html.php");
+	include_file_2("web/quanao/cumchucnang/trang_chu/xuat_san_pham.php");
+	include_file_2("web/quanao/cumchucnang/trang_chu/tin_tuc.php");
+?>
